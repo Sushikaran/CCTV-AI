@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+body { background-color: #0f172a; color: #f8fafc; min-height: 100vh; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #1e293b; border-bottom: 1px solid #334155; }
+.nav-brand { font-weight: 700; font-size: 1.2rem; color: #ef4444; }
+.nav-links { display: flex; align-items: center; gap: 1.5rem; }
+.nav-links a { color: #94a3b8; text-decoration: none; font-weight: 500; }
+.nav-links a.active, .nav-links a:hover { color: #f8fafc; }
+.logout-btn { background: #dc2626; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
+.main-layout { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); }
+.login-container { max-width: 400px; margin: 4rem auto; }
+.form-group { margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.form-group input, .form-group select { background: #0f172a; border: 1px solid #334155; color: white; padding: 0.75rem; border-radius: 6px; font-size: 1rem; }
+.btn-primary { width: 100%; background: #2563eb; color: white; border: none; padding: 0.75rem; border-radius: 6px; font-weight: 600; cursor: pointer; margin-top: 0.5rem; }
+.toggle-btn { background: none; border: none; color: #38bdf8; cursor: pointer; margin-top: 1rem; font-size: 0.85rem; width: 100%; }
+.camera-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.camera-card { padding: 1.25rem; }
+.location-badge { background: #0284c7; color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
+.feed-box { background: #020617; height: 180px; border-radius: 8px; display: flex; justify-content: center; align-items: center; border: 1px dashed #475569; position: relative; }
+.live-tag { position: absolute; top: 10px; right: 10px; background: #ef4444; color: white; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+.evidence-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; }
+.evidence-table th, .evidence-table td { padding: 1rem; text-align: left; border-bottom: 1px solid #334155; }
+.evidence-table th { background: #0f172a; color: #94a3b8; font-size: 0.85rem; }
+.status-tag { padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+.status-tag.sent { background: #065f46; color: #34d399; }
+.status-tag.failed { background: #7f1d1d; color: #f87171; }
+.message-banner { padding: 0.75rem; border-radius: 6px; margin-bottom: 1rem; font-size: 0.9rem; }
+.message-banner.error { background: #7f1d1d; color: #fca5a5; }
+.message-banner.success { background: #065f46; color: #6ee7b7; }
