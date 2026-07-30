@@ -1,16 +1,4 @@
-# Dependencies
 node_modules/
-__pycache__/
-*.pyc
-
-# Environment Variables & Secrets
 .env
-
-# SQLite Database & Storage (Keeps local logs out of GitHub)
 *.db
 *.db-journal
-/data/
-
-# OS specific files
-.DS_Store
-Thumbs.db
